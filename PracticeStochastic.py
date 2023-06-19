@@ -64,7 +64,7 @@ while v_f[2] > 0:
         xcoor.append(v_f[0])
         ycoor.append(v_f[1])
         zcoor.append(v_f[2])
-        #this makes it do what we want, ask why, [1,0,1]
+        #this makes it do what we want, if we use [1,0,0], it acts as if it hits the ground
         nom = [1,0,1]
         break
     v_i = v_f
